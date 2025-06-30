@@ -1,0 +1,4 @@
+header { @include flex-center; background: $color-secundario; padding: 1rem;
+  nav { @include flex-center; }
+  .navbar-toggler { border-color: $color-tipografia; }
+}

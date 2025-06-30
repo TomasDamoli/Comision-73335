@@ -4,18 +4,14 @@
   box-sizing: border-box;
 }
 
-.entrada {
+body {
   font-family: Arial, sans-serif;
-  background-color: #abb0df;
-  color: #7a7171;
-  line-height: 1.6;
 }
 
 a {
-  color: #f50404;
+  color: inherit;
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: underline;
 }
@@ -46,7 +42,7 @@ a:hover {
 .section {
   border-radius: 10px;
   padding: 20px;
-  background-color: #333;
+  background: #333;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: white;
 }
@@ -76,7 +72,8 @@ a:hover {
   }
   .main-content .section img {
     max-height: 300px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 @media (max-width: 768px) {
@@ -96,6 +93,4 @@ a:hover {
   font-weight: 600;
   display: inline-block;
   cursor: pointer;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
